@@ -17,7 +17,7 @@ const data = {
   firmante: {
     email: "firmante@example.com",
     nombre_completo: "FULANO"
-  },
+  }, 
   archivos: [
     {
       nombre: "archivo-1.pdf",
