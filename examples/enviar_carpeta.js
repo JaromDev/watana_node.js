@@ -5,7 +5,6 @@ const url = '<RUTA>';
 const token = '<TOKEN>';
 const watanaApi = new WatanaApi(url,token);
 
-
 // Ejemplo de uso: 
 const data = {
   carpeta_codigo: "DOC001",

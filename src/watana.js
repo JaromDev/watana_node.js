@@ -9,7 +9,6 @@ class WatanaApi {
     this.authToken = token;
   }
 
-
   // Método para enviar una solicitud POST y obtener una respuesta
   async sendPostRequest(data) {
     // Comprobar si la URL y el token están configurados
@@ -44,8 +43,6 @@ class WatanaApi {
     responseFunc(responseData);
   }
 
-
-  
   async DescargarCarpeta(data, responseFunc) {
     if (data.operacion !== 'descargar_carpeta') {
       data.operacion = 'descargar_carpeta';
