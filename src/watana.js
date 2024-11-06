@@ -141,3 +141,5 @@ class WatanaApi {
 
 // Exportar la clase WatanaApi para que esté disponible para su uso en otros archivos
 module.exports = WatanaApi;
+
+
