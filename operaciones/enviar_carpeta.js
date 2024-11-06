@@ -1,8 +1,8 @@
 const WatanaApi = require('../src/watana.js');
 
 // Crear una instancia de la clase WatanaApi
-const url = '<RUTA>';
-const token = '<TOKEN>';
+const url = 'https://api.watana.pe/api/v1/proveedor/7fTRXITTsPszFf51qjyDpHMBrcoFOEWo_aiFg2kDt30';
+const token = 'eyJhbGciOiJIUzI1NiJ9.eyJ0b2tlbiI6IjUxOGIyZTA5YThlMDVlNjMyOGNhOWUwNzk4MmMyNmI4ZjU5OWQwOTNhMGQ5NmI0NSJ9.5D8JHAn0YkTt2g4aGbOFthCPmgHQjIF8gBNdqzlylmY';
 const watanaApi = new WatanaApi(url,token);
 
 // Ejemplo de uso: 
@@ -14,7 +14,7 @@ const data = {
   vigencia_horas: 24,
   reemplazar: true,
   firmante: {
-    email: "firmante@example.com",
+    email: "jarom@youpana.com",
     nombre_completo: "FULANO"
   }, 
   archivos: [

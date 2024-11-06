@@ -126,8 +126,8 @@ class WatanaApi {
     responseFunc(responseData);
   }
   async SellarPdf(data, responseFunc) {
-    if (data.operacion !== 'SellarPdf') {
-      data.operacion = 'SellarPdf';
+    if (data.operacion !== 'sellar_pdf') {
+      data.operacion = 'sellar_pdf';
     }
 
     if (!data.zip_base64) {
