@@ -22,3 +22,5 @@ const watanaApi = new WatanaApi(url,token);
   watanaApi.FirmarPdf(data, (response) => {
     console.log(response);
   });
+
+  
